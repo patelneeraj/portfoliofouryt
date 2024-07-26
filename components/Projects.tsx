@@ -15,35 +15,14 @@ const Projects = () => {
       <Title text="Projects" icon={<FaProjectDiagram />} />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard
-          img={amazonClone.src}
-          title="Amazon Clone"
-          link="https://amazonclone.reactbd.com/"
+          description="Binspry Blogs is a dynamic blog and forum platform designed to facilitate user engagement and content sharing. Built with Django, it offers a seamless user experience with features like real-time commenting, user authentication, and a responsive design. Uses Postgresql for database."
+          title="Binspry Blogs"
+          link="https://binspry.com/"
         />
         <ProjectCard
-          img={reactBD.src}
-          title="Cyber Security"
-          link="https://reactbd.com/"
-        />
-        <ProjectCard
-          img={cyberBlog.src}
-          title="Cyber Security"
-          link="https://blog.reactbd.com/"
-        />
-        <ProjectCard
-          img={noorShop.src}
-          title="Noor Shopping"
-          link="https://orebishopping.reactbd.com/"
-        />
-        <ProjectCard
-          img={dynamicPortfolio.src}
-          title="Dynamic Portfolio"
-          link="https://amazonclone.reactbd.com/"
-        />
-
-        <ProjectCard
-          img={dashboard.src}
-          title="Dashboard"
-          link="https://orebishopping.reactbd.com/"
+          description="wca-scramble-to-matrix is a JavaScript library that provides utility functions for generating matrix representations of various Rubik's Cubes. It supports cubes ranging from 2x2 to 7x7. Each cube-specific function takes a scramble as input and returns a matrix representing the current state of the cube."
+          title="WCA Scramble to Matrix"
+          link="https://npmjs.com/package/wca-scramble-to-matrix"
         />
       </div>
     </div>

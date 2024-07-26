@@ -6,6 +6,8 @@ import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
+export const runtime = 'edge';
+
 export default function Home() {
   return (
     <main className="w-full bg-gray-950 text-gray-300 px-4">
